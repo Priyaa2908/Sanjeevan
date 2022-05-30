@@ -1,0 +1,95 @@
+
+ @media print{
+    .pp-icon{
+        display: hidden;
+    }
+
+    }
+
+.pp-container{
+display: flex;
+flex-direction: column;
+    padding: 5px 6rem;
+}
+
+.pp-con1{
+
+    display: flex;
+    justify-content: right;
+   
+}
+
+.icon-pp{
+    color: rgb(0, 140, 255);
+    font-size: 1.5rem;
+}
+
+.pp-icon{
+    font-size: small;
+    margin: 0.5rem 1rem; 
+}
+// =================================
+
+.pp-con2{
+  text-align: left;
+    display: flex;
+    // width: 300px;
+    float: left;
+    // display: flex;
+    // justify-content: left;
+    // align-items: left;
+    // flex-direction: column;
+}
+
+#pp-img{
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.pp-text{
+    margin: 1rem;
+}
+.pp-text p{
+    font-size: small;
+    line-height: 0.5em;
+
+}
+// ==========================================
+
+.pp-con4{
+    text-align: left;
+position: absolute;
+top: 13rem;
+left:7rem;
+}
+
+.pp-con4 p{
+    font-size:small ;
+    line-height: 0.5em;
+}
+
+.pp-con5 p{
+display: flex;
+justify-content: right;
+    font-size:small ;
+    line-height: 00.5em;
+}
+
+// ==========================
+
+.ppgrid-system{
+margin-top: 5rem;
+font-size: small;
+}
+
+.ppgrid-system h5{
+    text-align: left;
+}
+
+// ===========================
+
+.dispense{
+text-align: left;
+
+}

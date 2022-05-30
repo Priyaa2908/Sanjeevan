@@ -1,0 +1,239 @@
+$button : #0d6efd;
+$letter: rgb(109, 101, 101);
+
+.patientprofile-form {
+    padding: 0rem 4rem 0 4rem;
+    // background-color: #edecf3;
+
+}
+
+.patientprofile-form2 {
+    padding: 0rem 4rem 2rem 4rem;
+}
+
+.patientprofile-form h5 {
+    color: $letter;
+}
+
+.patient-details {
+    padding: 1rem 8rem;
+    text-align: left;
+    font-size: medium;
+    line-height: 0.7rem;
+}
+
+.patient-form {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.patient-form input {
+
+    color: grey;
+    width: 23vw;
+    background-color: white;
+    border: 1px outset white;
+    border-radius: 5px;
+    margin: 0.3rem 0.8rem;
+}
+
+.appointment {
+    margin: 2rem 0;
+    width: 90vw;
+
+}
+
+.medicine {
+    width: 15vw;
+}
+
+.appointment h5 {
+    color: $letter;
+    text-align: left;
+    margin-left: 8rem;
+}
+
+.appointment-container {}
+
+.appointment-field {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+// .form-selected {
+//     width: 23vw;
+//     background-color: white;
+//     border:1px outset grey;
+//     margin:0.3rem 0.8rem;
+// }
+
+.appointment-container input {
+    width: 17vw;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px outset rgb(236, 234, 234);
+    border-radius: 5px;
+    margin: 0.3rem 0.8rem;
+}
+
+.note-container input {
+    width: 51vw;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px outset rgb(204, 199, 199);
+    border-radius: 5px;
+    margin: 0.3rem 0.8rem;
+}
+
+.note-container textarea {
+    width: 53vw;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px outset rgb(204, 199, 199);
+    border-radius: 5px;
+    margin: 0.3rem 0.8rem;
+}
+
+.note-container{
+
+}
+
+.note {
+    width: 66rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.label-note {
+    // text-align: center;
+   
+    width: 7rem;
+    color: black;
+    font-size: medium;
+    
+}
+
+.input input {
+    width: 17vw;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px outset white;
+    border-radius: 5px;
+    margin: 0.3rem 0.8rem;
+}
+
+
+
+
+.btn-submit {
+    color: white;
+    background-color: $button;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    width: 6.5rem;
+}
+
+.btn-submit:hover {
+    background-color: #1c53a3;
+}
+
+.btn-view {
+    align-items: right;
+    justify-content: right;
+    display: flex;
+}
+
+.btn-view .btn {
+    background-color: $button;
+    color: white;
+}
+
+.btn-view .btn:hover {
+    background-color: rgb(177, 163, 163);
+    color: white;
+}
+
+
+.btn-addmore {
+    // align-items: left;
+    // justify-content: left;
+    // display: flex;
+    // margin: 0rem 6.5rem;
+
+}
+
+.btn-addmore button {
+
+    color: white;
+    background-color: $button;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    width: 6.5rem;
+}
+
+.toprint {
+    background: yellow;
+    position: relative;
+    // top: 35rem;
+}
+
+.history {
+    display: block;
+   
+
+}
+
+
+
+.btn-history {
+    color: black;
+    background-color: #c9c9c9;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    width: 7.5rem;
+}
+
+.btn-history:hover {
+    background-color: #a8a3a3;
+
+}
+
+// ============================ History Page ==================================
+
+.history-container {
+
+    padding: 0 8rem 8rem 8rem;
+}
+
+.text-history {
+    margin: 1rem 0;
+    color: #505152;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-history p {
+    font-size: 14px;
+    margin: 0.8px;
+}
+
+.table-history tr {
+    height: 2rem;
+}
+
+.table-history td {
+    font-size: 14px;
+}

@@ -1,0 +1,134 @@
+$sidebar :#15558d;
+$button : #0e97e7;
+$table:rgb(227, 220, 220);
+$letter:rgb(109, 101, 101);
+$th:#c9c9c9;
+$bg:#f9f9f9;
+
+.cp {
+  background-color: $bg;
+  font-family: 'Mada', sans-serif;
+  font-size: 0.9rem;
+  display: flex;
+}
+
+.search-patient{
+  align-items: left;
+  justify-content: left;
+  display: flex;
+}
+
+.search-patient input{
+  border: 2px solid rgb(175, 166, 166);
+  border-radius: 5px;
+  padding:  0.5rem 2.5rem 0.5rem 0.8rem;
+  margin:  0 0.2rem 2rem 0rem;
+
+}
+
+.search-patient input::-webkit-input-placeholder{
+  color:rgb(153, 144, 144) ;
+  font-size: medium;
+}
+
+input[type=submit]{
+color: white;
+font-size: medium;
+padding:  0.5rem 0.5rem;
+border: 2px solid $button;
+background-color:$button;
+}
+
+input[type=submit]:hover{
+  background-color: #1476d1;
+  border: 2px solid #1476d1 ;
+}
+
+.btn-add button {
+  position: relative;
+  left: 30rem;
+  color: white;
+  border: 2px solid $button;
+  border-radius: 4px;
+  padding: 0.4rem 0.6rem;
+  background-color: $button;
+  margin: 1rem;
+}
+
+table th,
+tr {
+  border: 1px solid $table;
+  height: 2.7rem;
+}
+
+table td,
+tr {
+  border: 1px solid $table;
+  height: 2.8rem;
+}
+
+table {
+  padding: 1rem;
+  border: 1px solid $table;
+  border-collapse: collapse;
+  width: 97%;
+}
+
+th {
+  background-color: $th;
+  color: $letter;
+  // height: 2.5rem;
+}
+
+.patient-list {
+  padding: 1rem;
+  // background-color: $bg;
+}
+
+.patient-list h4 {
+  color: $letter;
+  text-align: left;
+  font-weight: bold;
+}
+
+.patient-box {
+  //  border: 2px solid green;
+  width: 100%;
+}
+
+.patient-box th {
+  // border: 2px solid yellow;
+}
+
+.btn-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-edit {
+  font-size: 0.9rem;
+  width: 4.8rem;
+  margin: 0 0.3rem;
+  color: green;
+  background-color: rgb(209, 237, 209);
+  border: 2px solid rgb(209, 237, 209);
+  border-radius: 4px;
+  padding: 0.1rem 0.2rem;
+}
+
+.btn-delete {
+  display: flex;
+  font-size: 0.9rem;
+  margin: 0 0.3rem;
+  // width: 4.5rem;
+  color: #801100;
+  background-color: rgb(229, 196, 195);
+  border: 2px solid rgb(229, 196, 195);
+  border-radius: 4px;
+  padding: 0.1rem 0.2rem;
+}
+
+.del-icon {
+  margin: 0.2rem;
+}
